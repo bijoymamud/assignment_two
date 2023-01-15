@@ -8,8 +8,12 @@ body {
 }
 .nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+}
+.navigation {
+  width: 100%;
+  justify-content: space-between;
 }
 nav ul {
   display: flex;
@@ -162,8 +166,8 @@ nav ul a {
   margin-bottom: 10px;
 }
 .img_size {
-  height: auto;
-  width: 100%;
+  height: 1000px;
+  width: 75%;
 }
 .big_button {
   background: #ff900e;
@@ -214,7 +218,7 @@ nav ul a {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   justify-content: center;
-  max-width: 1600px;
+
   width: 100%;
   margin: 0 auto;
   justify-content: space-around;
@@ -344,8 +348,7 @@ nav ul a {
   justify-content: center;
   align-items: center;
 
-  max-width: 1400px;
-  width: 100%;
+  width: 80%;
   margin-bottom: 130px;
   filter: grayscale();
 }
@@ -355,13 +358,13 @@ nav ul a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  max-width: 1250px;
-  width: 100%;
+
+  width: 75%;
   background-color: #fff;
   background: #fff4e7;
   border-radius: 8px;
   padding: 40px 100px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   color: #424242;
   font-weight: 400;
   font-size: 20px;
