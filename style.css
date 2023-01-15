@@ -189,6 +189,7 @@ nav ul a {
   max-width: 1650px;
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 150px;
 }
 .container_latest h1 {
   text-align: center;
@@ -219,6 +220,9 @@ nav ul a {
 .course .course_banner img {
   width: 500px;
   height: 300px;
+}
+.course_title {
+  font-family: "Work Sans";
 }
 .course_author {
   color: #ed6b4f;
@@ -360,4 +364,11 @@ nav ul a {
   font-weight: 400;
   font-size: 20px;
   font-family: "Work Sans";
+}
+
+@media only screen (max-width: 576px) {
+  .last {
+    max-width: 676px;
+    justify-content: center;
+  }
 }
