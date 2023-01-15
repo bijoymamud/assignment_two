@@ -4,7 +4,7 @@ body {
 }
 .banner_section {
   background: rgba(255, 144, 14, 0.1);
-  width: 100%;
+  padding: 0 150px;
 }
 .nav {
   display: flex;
@@ -68,8 +68,9 @@ nav ul a {
 }
 .banner_image {
   margin-bottom: 30px;
+
   height: auto;
-  width: auto;
+  width: 100%;
 }
 .second_section {
   margin-top: 90px;
@@ -121,8 +122,7 @@ nav ul a {
   margin-top: 270px;
   justify-content: center;
   margin-bottom: 150px;
-  width: 1450px;
-  width: 100%;
+
   padding-left: 150px;
 }
 
@@ -163,17 +163,15 @@ nav ul a {
 }
 .img_size {
   height: auto;
-  width: auto;
+  width: 100%;
 }
 .big_button {
   background: #ff900e;
   border-radius: 8px;
-  width: 342px;
-  height: 200px;
-  padding: 10px 30px;
-  position: relative;
-  top: 1px;
-  right: 750px;
+  margin-top: -150px;
+  margin-left: -50px;
+  padding: 5px 100px;
+
   border: none;
 }
 .big_button h1 {
