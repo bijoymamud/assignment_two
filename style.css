@@ -1,7 +1,6 @@
 body {
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
 }
 .banner_section {
   background: rgba(255, 144, 14, 0.1);
@@ -69,6 +68,8 @@ nav ul a {
 }
 .banner_image {
   margin-bottom: 30px;
+  height: auto;
+  width: auto;
 }
 .second_section {
   margin-top: 90px;
@@ -160,7 +161,10 @@ nav ul a {
   font-family: "Work Sans";
   margin-bottom: 10px;
 }
-
+.img_size {
+  height: auto;
+  width: auto;
+}
 .big_button {
   background: #ff900e;
   border-radius: 8px;
@@ -364,11 +368,4 @@ nav ul a {
   font-weight: 400;
   font-size: 20px;
   font-family: "Work Sans";
-}
-
-@media only screen (max-width: 576px) {
-  .last {
-    max-width: 676px;
-    justify-content: center;
-  }
 }
