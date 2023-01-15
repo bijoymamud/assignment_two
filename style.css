@@ -458,7 +458,7 @@ nav ul a {
   }
   .course {
     border-radius: 8px;
-    padding: 0px;
+    padding: 10px;
     gap: 0px;
   }
   .banner_section {
@@ -476,5 +476,8 @@ nav ul a {
   }
   .grid_details {
     padding-left: 45px;
+  }
+  .button {
+    margin-bottom: 20px;
   }
 }
