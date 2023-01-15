@@ -257,7 +257,6 @@ nav ul a {
 }
 
 .grid_conainer {
-  max-width: 1650px;
   width: 100%;
   justify-content: center;
   margin: 0 auto;
@@ -283,8 +282,8 @@ nav ul a {
 }
 
 .grid_details {
-  width: 100%;
-  max-width: 542px;
+  width: 80%;
+  padding-left: 100px;
 }
 
 .fact-item {
@@ -471,5 +470,11 @@ nav ul a {
   .course .course_banner img {
     width: 400px;
     height: auto;
+  }
+  .fact-items {
+    padding: 20px;
+  }
+  .grid_details {
+    padding-left: 45px;
   }
 }
