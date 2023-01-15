@@ -184,6 +184,51 @@ nav ul a {
   font-weight: 500;
   font-size: 25px;
 }
+.bonus_section {
+  max-width: 1650px;
+  width: 100%;
+}
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+}
+.course .course_banner img {
+  width: 266px;
+  height: 141px;
+}
+.course_author {
+  color: #ed6b4f;
+  font-weight: 500;
+  font-size: 18px;
+}
+.course_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #ffc014;
+
+  color: #aeaeae;
+  opacity: 0.25;
+}
+.course_duration {
+  background: #ffe4e8;
+  border-radius: 15px;
+  padding: 5px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.course_duration .fa-clock {
+  color: #ff4a60;
+}
+
 .container {
   justify-content: center;
   margin-bottom: 100px;
@@ -239,14 +284,16 @@ nav ul a {
 }
 
 .fact-title {
-  font-weight: 600;
-  font-size: 2.81rem;
   color: #424242;
+  font-weight: 600;
+  font-size: 45px;
+  font-family: "Work Sans";
 }
 
 .fact-description {
+  font-family: "Work Sans";
   font-weight: 600;
-  font-size: 1.25rem;
+  font-size: 30px;
   color: #727272;
 }
 .sponsor_title {
